@@ -1,0 +1,10 @@
+{"pages" : [
+  "pages/noot/noot"
+],
+"window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "我的LOFT",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleTextFontSize":"20px"
+  }}

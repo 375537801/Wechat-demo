@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="userinfo bg">
+    <view class="bg">
+    <image class="img" src="../../image/logo1.png"></image>
+    </view>
+  </view>
+<scroll-view class="container" id="map" scroll-y="true">
+   <map longitude="{{point.longitude}}" latitude="{{point.latitude}}" markers="{{markers}}" covers="{{covers}}"  scale="16" style="width:320px; height:520px;"></map>
+</scroll-view>
+
+
+<view class="footer footimg"></view>
+</view>

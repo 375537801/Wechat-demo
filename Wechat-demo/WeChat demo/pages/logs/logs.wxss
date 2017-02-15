@@ -1,0 +1,28 @@
+/* pages/logs/logs.wxss */
+.myself {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: greenyellow;
+    font-family: "宋体";
+    margin-top: 10px;
+}
+.userinfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.image {
+    width: 500rpx;
+    height: 200rpx;
+}
+.footimg{
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+}

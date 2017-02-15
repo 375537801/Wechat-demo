@@ -1,0 +1,37 @@
+<view class="container">
+<view class="container" style="overflow:hidden">
+  <view  bindtap="bindViewTapmusic" class="userinfo bg" animation="{{animationData}}">
+    <view  class="bg">
+    <image class="img" src="../../image/logo1.png"></image>
+    </view>
+  </view>
+<view class="music">
+  <view class="list" animation="{{animationmusic}}">
+    <view class="lovemusic" bindtap="bindlove">
+    最喜欢的
+    </view>
+    <view class="staticmusic" bindtap="bindstatic">
+    默认列表
+    </view>
+    <view class="intermusic" bindtap="bindinter">
+    网络歌单
+    </view>
+  </view>
+  <scroll-view scroll-y="true"class="music-name" animation="{{animationopt}}">
+    <view class="list-one">信-远的要命的爱情</view>
+    <view class="list-one">信-死了都要爱爱</view>
+    <view class="list-one">信-离歌</view>
+    <view class="list-one">信-回来</view>
+    <view class="list-one">信-沦陷</view>
+    <view class="list-one">信-告别的时代</view>
+    <view class="list-one">信-魂</view>
+    <view class="list-one">信-火烧的寂寞</view>
+    <view class="list-one">信-我恨你</view> 
+    <view class="list-one">信-疯狂</view>
+    <view class="list-one">信-伤城</view>
+    <view class="list-one">信-趁我</view>
+  </scroll-view>
+  </view>
+<view class="footer footimg"></view>
+</view>
+</view>

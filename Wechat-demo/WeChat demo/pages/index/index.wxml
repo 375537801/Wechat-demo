@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo bg">
+    <image src="../../image/logo1.png" class="bg"></image>
+    <text class="userinfo-nickname">我是{{userInfo.nickName}},这就是我!</text>
+  </view>
+  <view>
+  <view class="blur btn" bindtap="bindViewTapblur">
+  <text>LOFT</text>
+  </view>
+  </view>
+  <view>
+  <view class="music btn" bindtap="bindViewTapmusic">
+  <text>MUSIC</text>
+  </view>
+  </view>
+  <view>
+  <view class="picture btn" bindtap="bindViewTappicture">
+  <text>PICTURE</text>
+  </view>
+  </view>
+  <view class="footer footimg"></view>
+</view>

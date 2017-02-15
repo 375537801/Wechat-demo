@@ -1,0 +1,8 @@
+
+<view class="container">
+<view class="container" bindtap="bindback" class="userinfo">
+  <icon type="String"><image src="../../image/logo1.png" class="image"></image></icon>
+  <view class="myself" animation="{{animationData}}" >我是仲依林，
+  这就是我的生活方式，我爱蓝调，爱音乐，我喜欢运动，喜欢工作，喜欢各种各样的刺激！！！</view>
+</view>
+</view>

@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/blur/blur",
+    "pages/logs/logs",
+    "pages/music/music",
+    "pages/photo/photo",
+    "pages/noot/noot"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "我的LOFT",
+    "navigationBarTextStyle":"white",
+    "navigationBarTitleTextFontSize":"20px"
+  }
+  
+}

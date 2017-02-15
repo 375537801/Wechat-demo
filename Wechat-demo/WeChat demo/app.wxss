@@ -1,0 +1,29 @@
+/**app.wxss**/
+.container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+  background-image: url("../../image/dabeijin.jpg");
+}
+.footer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: url("../../image/diwu.jpg");
+  background-position-y: bottom;
+}
+.nav{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #C8FCFF;
+}

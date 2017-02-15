@@ -1,0 +1,21 @@
+<view class="container">
+<view class="container">
+  <view class="userinfo bg" bindtap="bindback" animation="{{animationData}}">
+    <view class="bg">
+    <image class="img" src="../../image/logo1.png"></image>
+    </view>
+  </view>
+  <view class="btn">
+    <view bindtap = "add" class="adds">MAP</view>
+    <swiper indicator-dots="{{true}}"
+  autoplay="{{autoplay}}" circular="{{true}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+      </block>
+      </swiper>
+  </view>
+  </view>
+<view class="footer footimg"></view>
+</view>

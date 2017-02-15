@@ -1,0 +1,32 @@
+<view class="container">
+<view class="container">
+  <view  bindtap="bindback" class="userinfo bg">
+    <view class="bg" animation = "{{animationpic}}">
+      <image src="../../image/logo1.png" class="img"></image>
+    </view>
+  </view>
+<scroll-view scroll-y="true" class="choose">
+    <view class="picture" animation = "{{animationopc}}">
+    <image src="../../image/waitan.jpg" class="img"></image>
+    <navigator url="#"></navigator>
+    </view>
+    <view class="picture" animation = "{{animationopc}}">
+    <image src="../../image/waitan2.jpg" class="img"></image>
+    <navigator url="#"></navigator>
+    </view>
+    <view class="picture" animation = "{{animationopc}}">
+    <image src="../../image/disan.jpg" class="img"></image>
+    <navigator url="#"></navigator>
+    </view>
+    <view class="picture" animation = "{{animationopc}}">
+    <image src="../../image/disi.jpg" class="img"></image>
+    <navigator url="#"></navigator>
+    </view>
+    <view class="picture" animation = "{{animationopc}}">
+    <image src="../../image/diwu.jpg" class="img"></image>
+    <navigator url="#"></navigator>
+    </view>
+</scroll-view>
+<view class="footer footimg"></view>
+</view>
+</view>
